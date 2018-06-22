@@ -1,7 +1,6 @@
 
-
 target 'eModocker_Example' do
-  pod 'eModocker', :path => '../'
+    pod 'eModocker', :path => '../'
 
   target 'eModocker_Tests' do
     inherit! :search_paths
