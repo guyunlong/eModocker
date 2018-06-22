@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'eModocker_Example' do
+  pod 'eModocker', :path => '../'
+
+  target 'eModocker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
