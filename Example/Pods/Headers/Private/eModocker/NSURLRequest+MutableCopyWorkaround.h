@@ -1,0 +1,1 @@
+../../../../../eModocker/Classes/categary/NSURLRequest+MutableCopyWorkaround.h

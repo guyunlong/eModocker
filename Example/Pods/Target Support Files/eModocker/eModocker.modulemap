@@ -1,0 +1,6 @@
+framework module eModocker {
+  umbrella header "eModocker-umbrella.h"
+
+  export *
+  module * { export * }
+}

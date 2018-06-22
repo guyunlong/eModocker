@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284AFBC74DC34A31C447F772 /* Pods_eModocker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19749B45B3D964967719F122 /* Pods_eModocker_Example.framework */; };
-		5D568A17D80B3D7963DBCD14 /* Pods_eModocker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5084B5CCB855C288DBFA7ECF /* Pods_eModocker_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A46E27E220DD49E700EE9267 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = A46E27E120DD49E700EE9267 /* Web */; };
+		D41D9A3FDFE28DA6482463B5 /* libPods-eModocker_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D7372AE7F63EC149059978 /* libPods-eModocker_Example.a */; };
+		DC7B14EF6A44232230A7D521 /* libPods-eModocker_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB40172B0797AD260ACD077 /* libPods-eModocker_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		112E4EF95E708A86D8642F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		112E4EF95E708A86D8642F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		138145C904E42685E454598C /* Pods-eModocker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Example/Pods-eModocker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		19749B45B3D964967719F122 /* Pods_eModocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eModocker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20ADF6FC9F03A111DC9E4A33 /* eModocker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = eModocker.podspec; path = ../eModocker.podspec; sourceTree = "<group>"; };
+		20ADF6FC9F03A111DC9E4A33 /* eModocker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = eModocker.podspec; path = ../eModocker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		29D7372AE7F63EC149059978 /* libPods-eModocker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eModocker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB40172B0797AD260ACD077 /* libPods-eModocker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eModocker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		438FC844DD8DC512D16598AD /* Pods-eModocker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Tests/Pods-eModocker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5084B5CCB855C288DBFA7ECF /* Pods_eModocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eModocker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* eModocker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eModocker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +63,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A0443DE2FB6CF41679E5F27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A0443DE2FB6CF41679E5F27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8002FC0B16E05801F04AEC49 /* Pods-eModocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Tests/Pods-eModocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46E27E120DD49E700EE9267 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Web; path = eModocker/Web; sourceTree = "<group>"; };
 		E9A17A0FC8ACFE91A9CEBDEE /* Pods-eModocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Example/Pods-eModocker_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				284AFBC74DC34A31C447F772 /* Pods_eModocker_Example.framework in Frameworks */,
+				D41D9A3FDFE28DA6482463B5 /* libPods-eModocker_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5D568A17D80B3D7963DBCD14 /* Pods_eModocker_Tests.framework in Frameworks */,
+				DC7B14EF6A44232230A7D521 /* libPods-eModocker_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +111,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A46E27E120DD49E700EE9267 /* Web */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for eModocker */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -134,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				19749B45B3D964967719F122 /* Pods_eModocker_Example.framework */,
-				5084B5CCB855C288DBFA7ECF /* Pods_eModocker_Tests.framework */,
+				29D7372AE7F63EC149059978 /* libPods-eModocker_Example.a */,
+				2FB40172B0797AD260ACD077 /* libPods-eModocker_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				A46E27E220DD49E700EE9267 /* Web in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,10 +323,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-eModocker_Example/Pods-eModocker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 				"${BUILT_PRODUCTS_DIR}/eModocker/eModocker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaHTTPServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/eModocker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

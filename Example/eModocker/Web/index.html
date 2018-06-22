@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head lang="zh-cmn-Hans">
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="format-detection" content="telephone=no">
+                    <meta name="format-detection" content="email=no">
+                        <meta name="apple-mobile-web-app-capable" content="yes">
+                            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+                                <meta name="full-screen" content="yes">
+                                    <meta name="browsermode" content="application">
+                                        <meta name="x5-orientation" content="portrait">
+                                            <meta name="x5-fullscreen" content="true">
+                                                <meta name="x5-page-mode" content="app">
+                                                    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+                                                        <meta name="keywords" content="3dsmax,3dmax,maya,unity,unity3d,unreal,pbr材质,3d模型,3d模型免费下载,游戏美术,3d设计师交流论坛,3d建模师,3d模型在线展示,网页嵌入3D模型,分享3D模型,上传3D模型,3dmodel,vr,ar,虚拟现实,增强现实,微信3d,微信3d展示,三维展示,网页3D模型">
+                                                            <meta name="description" content="模多客（Modocker）提供优雅的在线3D展示服务，包括3D模型上传、3D模型在线展示、3D模型外链分享、3D模型下载、3D着色器（Shader），支持3DS MAX、MAYA、C4D、Blend、Unity3D、Unreal等多种模型格式，支持PBR材质在线实时渲染。">
+                                                                <script type="text/javascript" src="/js/babylon.js"></script>
+                                                                <title>模多客 -- Modocker 提供优雅的在线 3D 展示服务</title>
+                                                                <style>
+                                                                    html, body {
+                                                                        width: 100%;
+                                                                        height: 100%;
+                                                                        overflow: hidden;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                    }
+                                                                #renderCanvas {
+                                                                    top: 0;
+                                                                    right: 0;
+                                                                    bottom: 0;
+                                                                    left: 0;
+                                                                    z-index: 1;
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    outline: none;
+                                                                    touch-action: manipulation;
+                                                                    user-select: none;
+                                                                    -webkit-user-drag: none;
+                                                                    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                                                    pointer-events: all;
+                                                                    cursor: -webkit-grab;
+                                                                    cursor: grab;
+                                                                }
+                                                                </style>
+    </head>
+    <body>
+        <canvas id="renderCanvas"></canvas>
+        <script>
+            window.$emit = function(event, preload){
+                // fire event with preload
+                console.log(event)
+            }
+        function setSrc(src){
+            window.modelUrl = 'https://oss.model.mdkrcdn.com' + src
+            return true
+        }
+        function setGltf(gltf){
+            window.gltf = JSON.parse(gltf)
+            return true
+        }
+        function init() {
+            BABYLON.MDKMobilelViewMain(window);
+            return true
+        }
+        window.onload = function(){
+            if(window.android !== undefined && window.android !== null){
+                android.onWebPageFinish();
+            }
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+../../../../../eModocker/Classes/Utils/Manager/MDockerGetManager.h

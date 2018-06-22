@@ -1,4 +1,4 @@
-use_frameworks!
+
 
 target 'eModocker_Example' do
   pod 'eModocker', :path => '../'
