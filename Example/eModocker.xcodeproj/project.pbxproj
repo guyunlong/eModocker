@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A46E27E220DD49E700EE9267 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = A46E27E120DD49E700EE9267 /* Web */; };
 		D41D9A3FDFE28DA6482463B5 /* libPods-eModocker_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D7372AE7F63EC149059978 /* libPods-eModocker_Example.a */; };
 		DC7B14EF6A44232230A7D521 /* libPods-eModocker_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB40172B0797AD260ACD077 /* libPods-eModocker_Tests.a */; };
 /* End PBXBuildFile section */
@@ -67,7 +66,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8002FC0B16E05801F04AEC49 /* Pods-eModocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Tests/Pods-eModocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A46E27E120DD49E700EE9267 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Web; path = eModocker/Web; sourceTree = "<group>"; };
 		E9A17A0FC8ACFE91A9CEBDEE /* Pods-eModocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eModocker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-eModocker_Example/Pods-eModocker_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				A46E27E120DD49E700EE9267 /* Web */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for eModocker */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -285,7 +282,6 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				A46E27E220DD49E700EE9267 /* Web in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,9 +362,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-eModocker_Example/Pods-eModocker_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/eModocker/eModocker.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/eModocker.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

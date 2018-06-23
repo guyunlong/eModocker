@@ -10,7 +10,7 @@
 #import "MDockerGetManager.h"
 #import "SCYCacheURLProtocol.h"
 #import "HTTPServer.h"
-#define webPath [[NSBundle mainBundle] pathForResource:@"Web" ofType:nil]
+//#define webPath [[NSBundle mainBundle] pathForResource:@"Web" ofType:nil]
 @interface WebViewModel ()<UIWebViewDelegate>
 @property (nonatomic,strong) id src;
 @property (nonatomic,strong) id  gltf;
@@ -116,14 +116,31 @@
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Web" ofType:nil];
+    
+    
+  //  NSString* bundelpath = [[[NSBundle mainBundle] resourcePath]   stringByAppendingPathComponent:@"eModockerResource.bundle"];
+   
+    
+    NSBundle * bundleForClass = [NSBundle bundleForClass:[WebViewModel class]];
+    NSURL * eModockerBundleUrl = [bundleForClass URLForResource:@"eModocker" withExtension:@"bundle"];
+    NSBundle * bundle = [NSBundle bundleWithURL:eModockerBundleUrl];
+    
+    NSURL * eModockerBundleUrl1 = [bundle URLForResource:@"eModockerResource" withExtension:@"bundle"];
+    NSBundle * bundle1 = [NSBundle bundleWithURL:eModockerBundleUrl1];
+    
+    NSString *path = [bundle1 pathForResource:@"Web" ofType:nil];
+    
+   
+    
+    
+    
     NSLog(@">>>>[WebFilePath:]%@",path);
     
     
-    if (![fileManager fileExistsAtPath:webPath]){
+    if (![fileManager fileExistsAtPath:path]){
         NSLog(@">>>> File path error!");
     }else{
-        NSString *webLocalPath = webPath;
+        NSString *webLocalPath = path;
         [_localHttpServer setDocumentRoot:webLocalPath];
         NSLog(@">>webLocalPath:%@",webLocalPath);
         [self startServer];
