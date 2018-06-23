@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'eModocker/Classes/**/*'
   
-   s.resource_bundles = {
-    'eModocker' => ['eModocker/Assets/*']
-   }
+  # s.resource_bundles = {
+  #  'eModocker' => ['eModocker/Assets/*']
+  # }
   
-  #   s.resource = 'eModocker/Assets//eModockerResource.bundle'
+     s.resource = 'eModocker/Assets/eModockerResource.bundle'
 # s.resource = 'Resources/eModockerResource.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
