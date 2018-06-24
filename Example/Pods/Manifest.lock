@@ -9,7 +9,7 @@ PODS:
   - CocoaLumberjack/Default (3.4.2)
   - CocoaLumberjack/Extensions (3.4.2):
     - CocoaLumberjack/Default
-  - eModocker (0.1.1):
+  - eModocker (0.1.4):
     - CocoaHTTPServer
     - MJExtension
     - YYCache
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
-  eModocker: 3241364493b15b7df753091f33562da2ba9e2d80
+  eModocker: 5daec272c5b0dc70b11f7d50815e9323d6b23a0b
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 

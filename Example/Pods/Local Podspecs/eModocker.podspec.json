@@ -1,6 +1,6 @@
 {
   "name": "eModocker",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "summary": "A short description of eModocker.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/guyunlong/eModocker",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/guyunlong/eModocker.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -24,7 +24,6 @@
       "eModocker/Assets/*"
     ]
   },
-  "resources": "eModocker/Assets//eModockerResource.bundle",
   "dependencies": {
     "CocoaHTTPServer": [
 

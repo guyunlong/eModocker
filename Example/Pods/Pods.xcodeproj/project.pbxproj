@@ -114,7 +114,6 @@
 		A3757E318541F7A286ADC3F42F06E224 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BE8494E0422C2AA7A67419C61735 /* HTTPAsyncFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A40015F43064CA71B8CED30722D52910 /* CocoaHTTPServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 888172DE78BB2B1D90D1F00AECB92A00 /* CocoaHTTPServer-dummy.m */; };
 		A44A1D10B0BBB0DA7553C93A42B1420C /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D8396B060F8D36686B1D8BBB10A84541 /* HTTPDynamicFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A4F866AB20DEAE170089EBAB /* WebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EE16F946480F685450C2F10CF26980 /* WebViewModel.m */; };
 		A7D83C5CEAFBB741275A9EBB8C596A96 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F94B2537F2628E6510935473B156AE /* NSString+MJExtension.m */; };
 		AA5881E5BED72F995857FBB90A654355 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F651F87C7D2EBB2AC934824B4FF1FD4 /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABFAD23BA6072516D52DFFEA6A992A18 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92C7D2545E0CE1A22A9DD41BB97727 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -282,7 +281,7 @@
 		1281A7F93D69955F1FE96D24613B83AF /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPLogging.h; path = Core/HTTPLogging.h; sourceTree = "<group>"; };
 		12AEB27483242E3D0686271B09469AB2 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = Core/Responses/HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
 		12CC7426032C61D37EA9A121534CC165 /* Pods-eModocker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eModocker_Example-dummy.m"; sourceTree = "<group>"; };
-		14D5B644BB24C555512725D0E766FB6A /* MaterialIcons-Regular.a37b0c0.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "MaterialIcons-Regular.a37b0c0.ttf"; sourceTree = "<group>"; };
+		14D5B644BB24C555512725D0E766FB6A /* MaterialIcons-Regular.a37b0c0.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "MaterialIcons-Regular.a37b0c0.ttf"; sourceTree = "<group>"; };
 		1636B2A2DDB43FEE2A856702DBEBEDB2 /* SCYCacheURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCYCacheURLProtocol.m; sourceTree = "<group>"; };
 		1A0984C998762366FB6AB8750DAA5127 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		1A26BE8494E0422C2AA7A67419C61735 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAsyncFileResponse.m; path = Core/Responses/HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
@@ -290,20 +289,20 @@
 		1B868F00DAD80175F8AB6AD321C66796 /* BGLogation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BGLogation.h; sourceTree = "<group>"; };
 		1D44AE365854370F5715CCABE74617F4 /* NSURLRequest+MutableCopyWorkaround.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+MutableCopyWorkaround.m"; sourceTree = "<group>"; };
 		1DCDA2FB733B755A68D7E46883C0472A /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = Core/HTTPMessage.h; sourceTree = "<group>"; };
-		20196C9A1D825CA2C0A93925CEFE15CE /* libeModocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libeModocker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20196C9A1D825CA2C0A93925CEFE15CE /* libeModocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libeModocker.a; path = libeModocker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FB4042BAD5B67FD1CA8E24D1DDD92E /* Pods-eModocker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eModocker_Tests-resources.sh"; sourceTree = "<group>"; };
 		224FF5664F626E94E810814DB054D409 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Core/HTTPConnection.m; sourceTree = "<group>"; };
 		22526AC7B8D78C2DF1E0FADE2CA4DB09 /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Core/Categories/DDRange.h; sourceTree = "<group>"; };
-		22D3BDA15B71D2444A318B9C5A4444F4 /* MaterialIcons-Regular.570eb83.woff2 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "MaterialIcons-Regular.570eb83.woff2"; sourceTree = "<group>"; };
+		22D3BDA15B71D2444A318B9C5A4444F4 /* MaterialIcons-Regular.570eb83.woff2 */ = {isa = PBXFileReference; includeInIndex = 1; path = "MaterialIcons-Regular.570eb83.woff2"; sourceTree = "<group>"; };
 		2E546C9D9AAB872C505FEF0B0914AAB4 /* ConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfigModel.h; sourceTree = "<group>"; };
 		2E930EECBC4D9FF65A7D9C09C3DFC9A3 /* eModocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eModocker-dummy.m"; sourceTree = "<group>"; };
 		3069356AE20D1FB0E698FB0624C9428A /* FFHttpTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFHttpTool.h; sourceTree = "<group>"; };
 		308F72D5F0D7440465864D2C7F417D2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3266A6B5D9E46D69654281BB8E47F9B3 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
-		34A1F43FCD015964056EF304B3C01C9A /* vconsole.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = vconsole.min.js; sourceTree = "<group>"; };
+		34A1F43FCD015964056EF304B3C01C9A /* vconsole.min.js */ = {isa = PBXFileReference; includeInIndex = 1; path = vconsole.min.js; sourceTree = "<group>"; };
 		34B41AC7C82E1336676375360CE56007 /* Pods-eModocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eModocker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3867684AED88C9D1AEC577F035125F3E /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		399E5F369470DF640B44C99FAFA6B393 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		399E5F369470DF640B44C99FAFA6B393 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaAsyncSocket.a; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B7D451904C7D57AC83FFE05A9F989D /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		3CB2684CDBE9C2D8DBCD2B363D7F179C /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		3CD34C58C019962C3EFC3C8F290A3F52 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = Core/Mime/MultipartMessageHeader.h; sourceTree = "<group>"; };
@@ -330,13 +329,13 @@
 		5A9FDA694BF7DC97003B2FC2EFC3A9CB /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Core/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
 		5EF055F8535EFA35F1FF941D5F0C92E4 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = Core/Responses/HTTPFileResponse.m; sourceTree = "<group>"; };
 		5F0D59CBC974FE5A58976A370D0B5051 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
-		5FB3FD626F142DD3A648C5CA0EE19624 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5FB3FD626F142DD3A648C5CA0EE19624 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; path = index.html; sourceTree = "<group>"; };
 		608FBC199B64ACCE82EC5320A2DD2575 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
-		60DA5B7B8BD53202B72C5CDAFA45FA65 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		63F4C8DA9D543AA05426D976CC456939 /* babylon.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = babylon.js; sourceTree = "<group>"; };
+		60DA5B7B8BD53202B72C5CDAFA45FA65 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCache.a; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F4C8DA9D543AA05426D976CC456939 /* babylon.js */ = {isa = PBXFileReference; includeInIndex = 1; path = babylon.js; sourceTree = "<group>"; };
 		649D5E5DD4017BDA0C88B62718473D2A /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		64FE24F12024938097B51C8EEAB8D8C4 /* SCYWebViewCacheModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCYWebViewCacheModel.m; sourceTree = "<group>"; };
-		6687B745BBF8676D034456D938C468CB /* libPods-eModocker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eModocker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6687B745BBF8676D034456D938C468CB /* libPods-eModocker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-eModocker_Tests.a"; path = "libPods-eModocker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D4D74874E115A3C4C35B74BAC9E294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68E9E99E1C38DF2D113AD8A6862AA003 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		6A381903DB12C3954AD5D7E5DA999325 /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = Core/Responses/HTTPDataResponse.m; sourceTree = "<group>"; };
@@ -345,10 +344,10 @@
 		6B20B81CD9DDA306253E73B05B6782AE /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		6E14227F6F7E7D57AC8FC18712B2BA3F /* Pods-eModocker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eModocker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6EB943334B5FD03F538A53215CE6048A /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
-		701074590C810AC1CD1419A9002ABBA1 /* eModocker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eModocker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		701074590C810AC1CD1419A9002ABBA1 /* eModocker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = eModocker.bundle; path = "eModocker-eModocker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D6FE94DA82D29A4AE2570849B24028 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		74654D85335978C9EBCA300AF55A4504 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
-		74F5365C8477A049D6A3A2A83428B840 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		74F5365C8477A049D6A3A2A83428B840 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7527299B0249D1BF270DDDAA090A5443 /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Core/HTTPResponse.h; sourceTree = "<group>"; };
 		771889C34BEBE348BE6A4F743345E757 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		78654DCF4ACE09C35FDD8CE7D305548A /* SCYLoanHTMLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SCYLoanHTMLCache.m; sourceTree = "<group>"; };
@@ -359,7 +358,7 @@
 		7C7422F66D313E654A4636BB5DF7C031 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		7CA0E094D01F392EAE697D5848BAD102 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
 		7F7A84315F1EA0F9C371CF2BDBDEEEC1 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
-		8144709052B0A5ED50BFA9B911A81811 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8144709052B0A5ED50BFA9B911A81811 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		81C2717B837061F85FE1F143C56F9515 /* SCYLoanHTMLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SCYLoanHTMLCache.h; sourceTree = "<group>"; };
 		822BD3E9F274F247D4BCDEB27001C2C3 /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Core/Categories/DDNumber.h; sourceTree = "<group>"; };
 		824C054CFF4EBF77394267399165C0A3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -378,10 +377,10 @@
 		8DA97CB6E8170AB115F402B4350C0A26 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
 		8E3652D33A03B5023B0348A1B6005CBE /* DAVConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVConnection.h; path = Extensions/WebDAV/DAVConnection.h; sourceTree = "<group>"; };
 		8EDF7C9323494F16B8751E19D8D333D4 /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Core/HTTPServer.h; sourceTree = "<group>"; };
-		8F523BF1387D31778580BEF86BB8C7CB /* libPods-eModocker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eModocker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F523BF1387D31778580BEF86BB8C7CB /* libPods-eModocker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-eModocker_Example.a"; path = "libPods-eModocker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBD55D2970D1974905091926197A102 /* DAVResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVResponse.h; path = Extensions/WebDAV/DAVResponse.h; sourceTree = "<group>"; };
 		91610EE15FA43D5251637BA2395F490A /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = Core/WebSocket.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		956C742BAC945101B07AF79BC50CE9F8 /* MDockerGetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MDockerGetManager.m; sourceTree = "<group>"; };
 		96295BD62EDEE884FA6FB4F85FE5FFD0 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		981A6E2FC0D6CEA8091A911385D64951 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
@@ -390,7 +389,6 @@
 		A03AE74E076F1FBE5532E9884EB3A7F6 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
 		A13293C7D6C8987D552AD24D569569A8 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A39713B6B841183E7C9C0D4BAD4CAB1A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		A4F866AD20DEB29A0089EBAB /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = eModocker/Assets; sourceTree = "<group>"; };
 		A5E1C2DA73CAC84EBBCC29B1F2090248 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		A6A39A1DB0DDF51B3B8F76DDE6E12A93 /* Pods-eModocker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eModocker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A6BDECBAD12DDFC721A4386C9C96AADC /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
@@ -398,11 +396,11 @@
 		A8DB723E76F7E55F6D0BD7A1D1830EF5 /* PUTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PUTResponse.h; path = Extensions/WebDAV/PUTResponse.h; sourceTree = "<group>"; };
 		AC61870A4D0C6F5D67B24FAE3EB51D9B /* NSString+CDEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CDEncryption.h"; sourceTree = "<group>"; };
 		ACC98443976C74564E4E7F7E508A6146 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		ADB4206A6DC0586A60A9433FBCD8A840 /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaHTTPServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB4206A6DC0586A60A9433FBCD8A840 /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaHTTPServer.a; path = libCocoaHTTPServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC7427C371304EA6FACBC19F3B4991A /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
 		AF91747706A186E81CD063FB805A66BB /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
 		AF92C7D2545E0CE1A22A9DD41BB97727 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		B3014CEAF159DE643EEA528BB1B3D3BD /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3014CEAF159DE643EEA528BB1B3D3BD /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B497E78922A5503AD5077862F61E4F67 /* Pods-eModocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eModocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DA884AF002B02CB6A4A15F98BA727B /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
 		B77A367C5231F9B7EEDAC7108E093655 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDynamicFileResponse.h; path = Core/Responses/HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
@@ -419,12 +417,12 @@
 		C3B8FB570873032754F2822E228FA68C /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
 		C3FCBD1A67475F669386A34C8D178E78 /* BGLocationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BGLocationConfig.m; sourceTree = "<group>"; };
 		C9D6134317455F4CB428E43245D4ABEF /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPFileResponse.h; path = Core/Responses/HTTPFileResponse.h; sourceTree = "<group>"; };
-		CA1F3DDB5C458E5328CE90A2DD1ACA08 /* index.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		CA1F3DDB5C458E5328CE90A2DD1ACA08 /* index.css */ = {isa = PBXFileReference; includeInIndex = 1; path = index.css; sourceTree = "<group>"; };
 		CFF35ED73279EEDE6D19BD4DC1B1BC55 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		D080FA8E155395FAE30628ACCD40F1E3 /* NSString+CDEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDEncryption.m"; sourceTree = "<group>"; };
 		D20BAD8E47C865E14CC3B86DA5E8CF59 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		D312A0569CF086E99E165D2E46871DA4 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		D3E7BC39C1078946AAF159F6E4EC998E /* MaterialIcons-Regular.012cf6a.woff */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "MaterialIcons-Regular.012cf6a.woff"; sourceTree = "<group>"; };
+		D3E7BC39C1078946AAF159F6E4EC998E /* MaterialIcons-Regular.012cf6a.woff */ = {isa = PBXFileReference; includeInIndex = 1; path = "MaterialIcons-Regular.012cf6a.woff"; sourceTree = "<group>"; };
 		D46D1FE4B942A5EED80690C96A517948 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		D57C15A894C855F4C19C2420A39B3573 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		D831EFACDB4BEF083023E5D68D539569 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Core/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
@@ -442,10 +440,10 @@
 		EB58B3F3D971C94DECD751BFD609AC08 /* NSURLRequest+MutableCopyWorkaround.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+MutableCopyWorkaround.h"; sourceTree = "<group>"; };
 		EC80240A90D78D33360F3C33D8C9128F /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = Core/Mime/MultipartFormDataParser.m; sourceTree = "<group>"; };
 		ECB630DDCA5225EFD9AA6FB0CC0F795C /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		EE66ABB8A7EF9834F725FEB547AFBCB0 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE66ABB8A7EF9834F725FEB547AFBCB0 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaLumberjack.a; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7C5779702AA4268D7E5391DFC1548D /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Core/Categories/DDNumber.m; sourceTree = "<group>"; };
 		F112B0C4553860B3A74BB4C64E101BD4 /* Pods-eModocker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eModocker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F125B3696E21DBB5F3CD65A86632DC40 /* eModocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = eModocker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F125B3696E21DBB5F3CD65A86632DC40 /* eModocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = eModocker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5402832D58F102D63B1C15F1A107250 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		F5B351A5D0E48FA2948D10ADDC32BE75 /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = Core/WebSocket.h; sourceTree = "<group>"; };
 		F6EFB60C751A089C78316A9F0A77BB9B /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
@@ -569,6 +567,7 @@
 			children = (
 				CA1F3DDB5C458E5328CE90A2DD1ACA08 /* index.css */,
 			);
+			name = css;
 			path = css;
 			sourceTree = "<group>";
 		};
@@ -581,6 +580,7 @@
 				AF92C7D2545E0CE1A22A9DD41BB97727 /* GCDAsyncUdpSocket.m */,
 				E54261FDFA63B25491F52B24BB972FEB /* Support Files */,
 			);
+			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -665,6 +665,7 @@
 				22D3BDA15B71D2444A318B9C5A4444F4 /* MaterialIcons-Regular.570eb83.woff2 */,
 				14D5B644BB24C555512725D0E766FB6A /* MaterialIcons-Regular.a37b0c0.ttf */,
 			);
+			name = img;
 			path = img;
 			sourceTree = "<group>";
 		};
@@ -715,6 +716,7 @@
 				91610EE15FA43D5251637BA2395F490A /* WebSocket.m */,
 				21650C632C59468D46A54927080EC59C /* Support Files */,
 			);
+			name = CocoaHTTPServer;
 			path = CocoaHTTPServer;
 			sourceTree = "<group>";
 		};
@@ -810,6 +812,7 @@
 				C0F94B2537F2628E6510935473B156AE /* NSString+MJExtension.m */,
 				3C62BBCCDD470684A2CB0B6248CA8F1B /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -859,6 +862,7 @@
 				591AB741937618F4C07AC36670A97223 /* YYMemoryCache.m */,
 				DF778177B561923396CB2A199565B56A /* Support Files */,
 			);
+			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -905,6 +909,7 @@
 				63F4C8DA9D543AA05426D976CC456939 /* babylon.js */,
 				34A1F43FCD015964056EF304B3C01C9A /* vconsole.min.js */,
 			);
+			name = js;
 			path = js;
 			sourceTree = "<group>";
 		};
@@ -925,6 +930,7 @@
 				3B71E3F2529BC4D628552BD4DB0F3798 /* Extensions */,
 				5FFC5D8B7392DFCED081C20DEA6C4C64 /* Support Files */,
 			);
+			name = CocoaLumberjack;
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
@@ -941,7 +947,6 @@
 		DF0466CD9D0B099D89BE2299923C1506 /* eModocker */ = {
 			isa = PBXGroup;
 			children = (
-				A4F866AD20DEB29A0089EBAB /* Assets */,
 				669FDBEEC0439DD4CB59EC6585E66C1D /* BGLogation */,
 				80C90AA3EDCE37D162F469E7C6EB8D7E /* categary */,
 				CD9C8BA1B0F83B98393D34FE5594BF37 /* Config */,
@@ -976,6 +981,7 @@
 				0AAAC740972DD8F9F6E17868FFC53A73 /* MDockerGetManager.h */,
 				956C742BAC945101B07AF79BC50CE9F8 /* MDockerGetManager.m */,
 			);
+			name = Manager;
 			path = Manager;
 			sourceTree = "<group>";
 		};
@@ -1443,7 +1449,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA99FA507FEF3978C7B860A233507F3 /* Pods-eModocker_Tests-dummy.m in Sources */,
-				A4F866AB20DEAE170089EBAB /* WebViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eModocker'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of eModocker.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'eModocker/Classes/**/*'
   
-  # s.resource_bundles = {
-  #  'eModocker' => ['eModocker/Assets/*']
-  # }
+   s.resource_bundles = {
+       'eModocker' => ['eModocker/Assets/*']
+   }
   
-     s.resource = 'eModocker/Assets/eModockerResource.bundle'
+  #   s.resource = 'eModocker/Assets/eModockerResource.bundle'
 # s.resource = 'Resources/eModockerResource.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
